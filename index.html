@@ -3,79 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Set Sail with Security: An Exclusive Yacht Experience</title>
+  <title>Palo Alto Networks and AWS Executive Dinner</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
   <style>
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background: #000;
+      background-color: #000;
       color: #fff;
     }
     header {
-      background: linear-gradient(135deg, #ff4f1f, #ff764e);
-      padding: 3rem 1rem;
+      background: linear-gradient(180deg, #000000 0%, #e64a19 100%);
+      padding: 4rem 2rem;
       text-align: center;
-    }
-    header img {
-      height: 40px;
-      vertical-align: middle;
-      margin-right: 1rem;
+      position: relative;
+      color: white;
     }
     header h1 {
-      font-size: 2.5rem;
-      margin: 1rem 0 0.5rem;
+      font-size: 3rem;
+      margin-bottom: 1rem;
     }
     header p {
-      font-size: 1.2rem;
-      margin-top: 0;
+      font-size: 1.25rem;
+      margin: 0.25rem 0;
     }
-    .section {
-      padding: 2rem 1rem;
-      max-width: 800px;
+    .content {
+      display: flex;
+      max-width: 1200px;
       margin: 0 auto;
       background-color: #fff;
       color: #000;
     }
+    .description {
+      flex: 1;
+      padding: 2rem;
+      font-size: 1rem;
+    }
+    .form-container {
+      flex: 1;
+      background: #f8f8f8;
+      padding: 2rem;
+    }
     .logos {
       display: flex;
-      justify-content: center;
-      gap: 2rem;
+      justify-content: space-between;
       align-items: center;
-      margin-top: 2rem;
+      padding: 1rem 2rem 0;
+      max-width: 1200px;
+      margin: 0 auto;
     }
-    .form-wrapper {
-      background-color: #f6f6f6;
-      padding: 2rem;
-      border-radius: 8px;
-      margin-top: 2rem;
-    }
-    .footer {
-      padding: 2rem;
-      text-align: center;
-      font-size: 0.85rem;
-      color: #aaa;
+    .logos img {
+      height: 40px;
     }
     iframe {
       width: 100%;
-      height: 1200px;
+      height: 1100px;
       border: none;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #aaa;
+      padding: 2rem;
+    }
+    .partner-label {
+      font-weight: 600;
+      color: #e64a19;
       margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://brands.home.paloaltonetworks.com/wp-content/uploads/2022/07/Color-PAN-Logo-1.png" alt="Palo Alto Networks">
-    <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS" height="40">
-    <h1>Set Sail with Security: An Exclusive Yacht Experience</h1>
-    <p>Wednesday, June 25 | 5:00 PM – 9:00 PM EST | Riverwalk Linear Park, Fort Lauderdale, FL</p>
+    <div class="logos">
+      <img src="https://brands.home.paloaltonetworks.com/wp-content/uploads/2022/07/Color-PAN-Logo-1.png" alt="Palo Alto Networks">
+      <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS">
+    </div>
+    <h1>Palo Alto Networks and AWS Executive Dinner</h1>
+    <p>Set Sail with Security: An Exclusive Yacht Experience</p>
+    <p>Wednesday, June 25 | 5:00PM–9:00PM EST</p>
+    <p>Riverwalk Linear Park, 24–98 S New River Dr E, Fort Lauderdale, FL</p>
   </header>
 
-  <div class="section">
-    <p>Join Palo Alto Networks and AWS for an exclusive yacht event designed to show our appreciation for you—our valued customer, or potential new customers—and bring together cloud and security leaders for an afternoon of networking, innovation, and connection. As we cruise the coastline aboard the 100-foot superyacht <strong>Redemption</strong>, we’ll explore how our partnership is helping organizations like yours navigate the evolving landscape of AI and cloud security. Enjoy great conversations, stunning views, and a chance to learn how AWS and Palo Alto Networks are working together to deliver smarter, more secure solutions that drive business forward.</p>
-    <div class="form-wrapper">
-      <!-- Embed your Marketo or Google Form URL here -->
+  <div class="content">
+    <div class="description">
+      <p>Join Palo Alto Networks and AWS for an exclusive yacht event designed to show our appreciation for you—our valued customer or potential new customers—and bring together cloud and security leaders for an afternoon of networking, innovation, and connection.</p>
+      <p>As we cruise the coastline aboard the 100-foot superyacht <strong>Redemption</strong>, we’ll explore how our partnership is helping organizations like yours navigate the evolving landscape of AI and cloud security. Enjoy great conversations, stunning views, and a chance to learn how AWS and Palo Alto Networks are working together to deliver smarter, more secure solutions that drive business forward.</p>
+      <p class="partner-label">In partnership with:</p>
+      <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS" height="40">
+    </div>
+
+    <div class="form-container">
       <iframe src="https://your-form-url-here" title="Registration Form"></iframe>
     </div>
   </div>
