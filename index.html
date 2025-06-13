@@ -14,7 +14,7 @@
     }
     header {
       background: linear-gradient(180deg, #000000 0%, #e64a19 100%);
-      padding: 4rem 2rem;
+      padding: 4rem 2rem 2rem;
       text-align: center;
       position: relative;
       color: white;
@@ -56,6 +56,22 @@
     .logos img {
       height: 60px;
     }
+    .logo-banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+    .logo-banner img:first-child {
+      height: 45px;
+      background: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+    }
+    .logo-banner img:last-child {
+      height: 50px;
+    }
     form {
       display: flex;
       flex-direction: column;
@@ -96,7 +112,7 @@
 </head>
 <body>
   <header>
-    <div class="logos">
+    <div class="logo-banner">
       <img src="PANW_Parent_Brand_Primary_Logo_RGB.png" alt="Palo Alto Networks">
       <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS">
     </div>
